@@ -1,0 +1,221 @@
+body {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+h1,
+h6 {
+	font-family: 'Open Sans';
+	font-weight: 300;
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	right: 0;
+	left: 0;
+}
+
+
+a {
+	font-family: 'Open Sans';
+	font-weight: 300;
+}
+
+/*html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }*/
+
+a {
+  background-color: transparent; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff; }
+
+a {
+  color: #337ab7;
+  text-decoration: none; }
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none; }
+
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px; }
+
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px; }
+
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+
+body {
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: 400;
+  color: #494949;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+a {
+  color: #0074d9;
+  padding-bottom: 1px;
+  border-bottom: 2px solid #0074d9;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; }
+
+/*no me gusta*/
+ul li {
+  margin: 2px 0 2px;
+  line-height: 1.2;
+  font-size: 22px;
+  font-weight: 400; }
+  @media (min-width: 768px) {
+    ul li {
+      margin: 2px 0 2px;
+      line-height: 1.3; } }
+
+ul li {
+      margin: 2px 0 2px;
+      line-height: 1.3; }
+
+.navbar-custom {
+  margin-bottom: 0;
+  color: #494949; }
+
+.navbar-custom a {
+    color: #494949;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; }
+
+.navbar-custom .nav li a {
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+      border-bottom: 1px solid transparent;
+      font-size: 20px;
+      color: #000000; }
+
+.navbar-custom {
+      min-height: 30px;
+      padding: 30px 0;
+      background-color: transparent;
+      letter-spacing: 1px;
+      color: #FFF;
+      font-size: 24px;
+      -webkit-transition: all .3s ease-in-out, padding .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out, padding .3s ease-in-out;
+      transition: all .3s ease-in-out, padding .3s ease-in-out; }
+
+a {
+  cursor: pointer; }
+
+
+
+
+
+
+
+
+
+
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030; }
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent; }
+
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px; }
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff; }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px; }
+
