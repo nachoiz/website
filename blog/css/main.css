@@ -16,7 +16,7 @@ body {
   background-color: #f0f0f0;
   font-family: Lato, sans-serif;
   color: #333;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 135%;
 }
 
@@ -115,6 +115,10 @@ figcaption {
   color: #aaa;
   font-size: 13px;
   text-align: center;
+}
+
+#nachoiz { 
+	text-align: center;
 }
 
 .button {
@@ -309,6 +313,7 @@ figcaption {
   margin-bottom: 20px;
   line-height: 145%;
   text-align: left;
+  font-size: 14px;
 }
 
 .built-with-webflow {
@@ -500,6 +505,7 @@ figcaption {
 
 .feature-posts-list {
   margin-bottom: -15px;
+  font-size: 14px;
 }
 
 .white-bg-heading {
