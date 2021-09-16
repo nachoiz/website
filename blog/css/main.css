@@ -135,6 +135,20 @@ figcaption {
   text-decoration: none;
 }
 
+figcaption {
+  color: black;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
 .button:hover {
   background-color: #333;
 }
